@@ -56,4 +56,3 @@ async function cat(filenames: string[]): Promise<void> {
     }
 }
   
-cat(deno.args.slice(1));
