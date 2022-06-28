@@ -5,7 +5,7 @@ import * as util from "./util.ts";
 import { TextDecoder } from "./text_encoding.ts";
 import { sendSync } from "./dispatch.ts";
 
-
+export { cat, fetchModuleMetaData };
 
 const decoder = new TextDecoder();
 
