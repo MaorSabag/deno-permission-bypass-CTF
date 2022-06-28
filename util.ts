@@ -61,7 +61,7 @@ export function arrayToStr(ui8: Uint8Array): string {
  */
 
 export interface ResolvableMethods<T> {
-  resolve: (value?: T | PromiseLike<T>) => void;
+  resolve: (value: T | PromiseLike<T>) => void;
   // tslint:disable-next-line:no-any
   reject: (reason?: any) => void;
 }
